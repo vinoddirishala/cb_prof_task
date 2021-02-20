@@ -55,8 +55,8 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder
                 .placeholder(R.mipmap.ic_launcher)
                 .error(R.mipmap.ic_launcher)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .dontAnimate()
                 .into(holder.thumbNail);
-
     }
 
     @Override
@@ -68,6 +68,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder
         data.addAll(dataBeans);
         notifyDataSetChanged();
     }
+
 
     public class DataViewHolder extends RecyclerView.ViewHolder{
 
