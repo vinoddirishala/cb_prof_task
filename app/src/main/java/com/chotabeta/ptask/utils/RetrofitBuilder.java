@@ -29,7 +29,6 @@ public class RetrofitBuilder {
         return api;
     }
 
-
     // read and write time out purpose
     private static OkHttpClient getOKHttpClient(){
         return new OkHttpClient().newBuilder()
