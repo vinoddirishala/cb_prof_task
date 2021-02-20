@@ -59,7 +59,6 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder
 
     }
 
-
     @Override
     public int getItemCount() {
         return data.size();
