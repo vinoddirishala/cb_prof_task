@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.chotabeta.ptask"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -51,6 +51,11 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     // life cycle extensions
     implementation "android.arch.lifecycle:extensions:1.1.1"
+
+    implementation 'com.razorpay:checkout:1.5.2'
+
+
+
 
 
 
